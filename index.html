@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stilic's Online Litter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <span class="logo">Stilic</span>
+        <span class="logo-sub">(online litter)</span>
+      </div>
+      <p id="navbar">
+        <a href="/">Home</a> / Dumpster /
+        <a href="https://github.com/Stilic/stilic.net">Source code</a>
+      </p>
+    </header>
+    <main>
+      <img class="avatar" src="avatar.png" alt="My avatar" />
+      <h1>Hello vro.</h1>
+      <p>
+        Welcome to my personal webpage. Be ready to read the most unhinged
+        informations ever.
+      </p>
+      <h2>About me</h2>
+      <ul>
+        <li>French</li>
+      </ul>
+    </main>
+    <footer>
+      <p>© 2024 Ruin What You Want</p>
+    </footer>
+  </body>
+  <style>
+    body {
+      font-family: "DM Sans", sans-serif;
+      background-color: #305b4b;
+      color: white;
+      max-width: 700px;
+      margin: auto;
+      padding: 15px 25px 0 25px;
+    }
+    img {
+      width: 50%;
+      max-width: 225px;
+      height: auto;
+    }
+    ol,
+    ul {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      text-align: left;
+    }
+    a {
+      color: rgb(0, 230, 80);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2em;
+    }
+    .logo,
+    .logo-sub {
+      color: black;
+    }
+    .logo {
+      position: relative;
+      padding: 0 10px 0 10px;
+      font-size: 40px;
+      background-color: #ff6a00;
+      box-shadow: 4px 4px 0px 0px #ffd800, 8px 8px 0px 0px #ff0000;
+    }
+    .logo-sub {
+      position: relative;
+      right: 90px;
+      top: 30px;
+      font-size: 30px;
+    }
+    @media only screen and (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 0;
+      }
+      .logo {
+        left: 45px;
+      }
+      .logo-sub {
+        right: 45px;
+      }
+    }
+    main,
+    footer {
+      text-align: center;
+    }
+    .avatar {
+      border-radius: 25%;
+    }
+  </style>
+</html>
